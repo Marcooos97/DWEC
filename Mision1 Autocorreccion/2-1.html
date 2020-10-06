@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+  
+<script>
+horas = prompt("¿Cuantas horas trabajas a la semana?");
+salario = prompt("¿A cuanto cobras la hora?");
+
+function trabajo(){
+    if(horas<=35){
+        alert("Tu salario bruto es " + " " + horas*salario + " por " + horas + " h " + "de trabajo");
+    }else if(horas>35){
+        horas2 = horas - 35;
+        horas3=35;
+        total=horas2*(salario*1.5) + horas3*salario;
+        alert("Tu salario bruto es " + " " + total + " por " + horas + " h " + "de trabajo");
+    }
+}
+trabajo();
+exento1=500;
+salarioTotal=salario*4;
+
+function salarioNeto(){
+    if(salarioTotal>500){
+        
+    }
+}
+
+
+</script>
+</body>
+</html>
